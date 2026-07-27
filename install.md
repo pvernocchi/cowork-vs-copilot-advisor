@@ -19,14 +19,7 @@ Before installation, ensure you have:
 
 ## 2) Get the repository
 
-Clone locally:
-
-```bash
-git clone https://github.com/pvernocchi/cowork-vs-copilot-advisor.git
-cd cowork-vs-copilot-advisor
-```
-
-Or download the repository ZIP and extract it.
+Download the file `Skill.md` locally.
 
 ---
 
@@ -66,21 +59,7 @@ Then choose one method:
 
 ---
 
-## 5) Configure metadata
-
-Set or verify in Cowork:
-
-- Skill name
-- Description
-- Category/tags
-- Visibility (private/team/org)
-- Any runtime/model options available in your tenant
-
-Publish or enable the skill once saved.
-
----
-
-## 6) Validate behavior
+## 5) Validate behavior
 
 Run quick test prompts:
 
@@ -92,26 +71,7 @@ Expected behavior:
 - Clear verdict
 - 5-factor scorecard
 - Cost-aware rationale
-- `precost` recommendation when Cowork is advised
-
----
-
-## 7) Roll out to team
-
-- Share the published skill with your team/workspace
-- Provide 2–3 sample prompts for onboarding
-- Track feedback and refine `SKILL.md`
-
----
-
-## 🔄 Updating the skill
-
-When changing behavior:
-
-1. Edit `SKILL.md`
-2. Re-import/update the skill in Cowork
-3. Re-test with the same prompts
-4. Update `README.md` if capabilities changed
+- [`precost`](https://github.com/Fepilot/cowork-precost-skill) recommendation when Cowork is advised
 
 ---
 
