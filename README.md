@@ -35,6 +35,11 @@ It defines:
 
 ## ✅ Capabilities at a glance
 
+Download the `cowork-vs-copilot-advisor` [latest release](https://github.com/pvernocchi/cowork-vs-copilot-advisor/releases/latest) .zip file.
+Follow the [installation guide](INSTALL.md) to verify the archive structure and
+upload it from Cowork's **Customize** > **Skills** page. Invoke it with
+**`/cowork-vs-copilot-advisor`**.
+
 This skill can:
 
 - Compare tool fit for a real prompt or use case
