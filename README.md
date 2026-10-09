@@ -7,7 +7,7 @@
 
 A practical **Cowork skill** for **M365 Copilot** that helps users decide:
 
-> **Should this task run in Microsoft 365 Copilot (already paid for) or in Cowork (pay-as-you-go)?**
+`Should this task run in Microsoft 365 Copilot (already paid for) or in Cowork (pay-as-you-go)?`
 
 ---
 
