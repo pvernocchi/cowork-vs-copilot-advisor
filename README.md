@@ -7,7 +7,7 @@
 
 A practical **Cowork skill** for **M365 Copilot** that helps users decide:
 
-> **Should this task run in Microsoft 365 Copilot (already paid for) or in Cowork (pay-as-you-go)?**
+`Should this task run in Microsoft 365 Copilot (already paid for) or in Cowork (pay-as-you-go)?`
 
 ---
 
@@ -15,7 +15,8 @@ A practical **Cowork skill** for **M365 Copilot** that helps users decide:
 
 - `SKILL.md` → the full skill definition (behavior, logic, guardrails)
 
->This skill can work together with the `/precost` skill available [here](https://github.com/pvernocchi/precost-cowork-skill)
+>[!NOTE]
+>This skill can work together with the `/precost` skill available [here](https://github.com/pvernocchi/precost-cowork-skill).
 ---
 
 ## 🧠 What `SKILL.md` does
