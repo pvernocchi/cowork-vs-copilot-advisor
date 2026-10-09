@@ -14,9 +14,8 @@ A practical **Cowork skill** for **M365 Copilot** that helps users decide:
 ## ✨ What this repo includes
 
 - `SKILL.md` → the full skill definition (behavior, logic, guardrails)
-- `install.md` → step-by-step installation guide for Cowork in M365 Copilot
-- `README.md` → overview and quick orientation
 
+>This skill can work together with the `/precost` skill available [here](https://github.com/pvernocchi/precost-cowork-skill)
 ---
 
 ## 🧠 What `SKILL.md` does
@@ -46,25 +45,10 @@ This skill can:
 
 ---
 
-## 📦 Installation
-
-See **[`install.md`](./install.md)** for complete setup instructions.
-
----
-
 ## 🧪 Typical examples
 
 - “Summarize this document and extract actions” → usually **M365 Copilot**
 - “Analyze 6 transcripts, create deck + summary + owner emails” → usually **Cowork**
-
----
-
-## 🤝 Contributing
-
-If you update behavior in `SKILL.md`, please also update:
-
-1. `README.md` (documented capabilities)
-2. `install.md` (if installation/usage flow changes)
 
 ---
 
