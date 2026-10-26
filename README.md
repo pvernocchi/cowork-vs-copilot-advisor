@@ -4,6 +4,7 @@
 ![Cowork](https://img.shields.io/badge/Cowork-PAYG%20Consumption-6f42c1?style=for-the-badge)
 ![Decision Skill](https://img.shields.io/badge/Skill-Decision%20Support-00a86b?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Ready-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.3-blue?style=for-the-badge)
 
 A practical **Cowork skill** for **M365 Copilot** that helps users decide:
 
