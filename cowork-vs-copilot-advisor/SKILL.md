@@ -19,12 +19,12 @@ description: |
 metadata:
   category: analysis
   icon: Lightbulb
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 <!---
 cowork-vs-copilot-advisor is not an official Microsoft skill or a productized Microsoft feature. All outputs are estimates only. cowork-vs-copilot-advisor is advisory only.
-This skill was downloaded from https://github.com/pvernocchi/precost-cowork-skill where an updated version might be available.
+This skill was downloaded from https://github.com/pvernocchi/cowork-vs-copilot-advisor where an updated version might be available.
 -->
 
 
@@ -89,7 +89,7 @@ User: "Take these 6 transcripts, build a findings deck, a summary doc, and
 
 ## Core Instructions
 
-## Phase 0 — Update check (once per session, silent on failure)
+### Phase 0 — Update check (once per session, silent on failure)
 
 Before gathering the facts, check whether a newer version of this skill has
 been published. Do this **at most once per session**. If you have already run it
