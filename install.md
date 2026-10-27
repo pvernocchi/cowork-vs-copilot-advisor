@@ -60,18 +60,34 @@ start another new conversation before troubleshooting the package.
 
 # Updating an installed skill
 
+## Automatic update notices
+
+When you use the skill, it checks for a newer published version at most once per
+session. If one is found, it reports the installed and latest versions and tells
+you how to request an update. If the check fails or no version is available, it
+stays silent and continues normally.
+
+This is a best-effort notification, not an automatic installation: the skill
+does not replace or edit itself. To request an update, say:
+
+```text
+Update my cowork-vs-copilot-advisor skill from https://github.com/pvernocchi/cowork-vs-copilot-advisor
+```
+
+## Install the update
+
 Uploading another skill with the same `name` does not overwrite the existing
-copy. Cowork keeps both and adds a number to the new skill's name.
+copy. Cowork keeps both and adds a number to the new skill's name. To update
+without leaving a duplicate:
 
-To avoid duplicate or ambiguous skills:
+1. Download and inspect the new version from the [latest release]
+   (https://github.com/pvernocchi/cowork-vs-copilot-advisor/releases/latest), including
+   its ZIP asset and any published checksum.
+2. In **Customize** > **Skills**, open the currently installed skill and delete it.
+3. Upload the new ZIP by following the steps above.
+4. Start a new conversation and test the updated skill.
 
-1. Download and inspect the new version.
-2. Open **Customize** > **Skills**.
-3. Open the old skill and delete it.
-4. Upload the new ZIP by following the steps above.
-5. Start a new conversation and test the updated skill.
-
-If you need to preserve the old version temporarily, upload the new version,
+If you need to keep the old version while testing, upload the new one first,
 test it in a new conversation, and then delete the old one. Check the displayed
 name carefully because Cowork may append a number.
 
