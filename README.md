@@ -59,7 +59,8 @@ If one is found, it notifies you and explains how to request the update. It neve
 replaces itself automatically; updates happen only after you explicitly ask.
 If the check fails, it stays silent and continues normally.
 
-To get notified when a new release is published, open the repository's **Watch**
+>[!TIP]
+>To get notified when a new release is published, open the repository's **Watch**
 menu, choose **Custom**, and enable **Releases**.
 
 ---
