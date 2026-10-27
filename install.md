@@ -80,7 +80,9 @@ Uploading another skill with the same `name` does not overwrite the existing
 copy. Cowork keeps both and adds a number to the new skill's name. To update
 without leaving a duplicate:
 
-1. Download and inspect the new version from the [latest release](https://github.com/pvernocchi/cowork-vs-copilot-advisor/releases/latest), including its ZIP asset and any published checksum.
+1. Download and inspect the new version from the [latest release]
+   (https://github.com/pvernocchi/cowork-vs-copilot-advisor/releases/latest), including
+   its ZIP asset and any published checksum.
 2. In **Customize** > **Skills**, open the currently installed skill and delete it.
 3. Upload the new ZIP by following the steps above.
 4. Start a new conversation and test the updated skill.
