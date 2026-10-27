@@ -52,6 +52,18 @@ This skill can:
 
 ---
 
+## 🔄 Updates
+
+At most once per session, the skill checks whether a newer release is available.
+If one is found, it notifies you and explains how to request the update. It never
+replaces itself automatically; updates happen only after you explicitly ask.
+If the check fails, it stays silent and continues normally.
+
+To get notified when a new release is published, open the repository's **Watch**
+menu, choose **Custom**, and enable **Releases**.
+
+---
+
 ## 🧪 Typical examples
 
 - “Summarize this document and extract actions” → usually **M365 Copilot**
